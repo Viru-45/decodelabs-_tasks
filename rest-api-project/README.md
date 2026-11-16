@@ -32,3 +32,4 @@ The server will start on `http://localhost:3000`.
 | `GET` | `/` | Health check & welcome message |
 | `GET` | `/api/users` | Retrieve mock list of users |
 | `POST` | `/api/users` | Create a user (requires `name` and `email` in JSON body) |
+
