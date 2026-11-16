@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Local environment files; keep safe examples tracked
+.env
+.env.*
+!.env.example
+
+# Build and generated artifacts
+frontend/dist/
+backend/generated/
+backend/prisma/generated/
+
+# Local tooling output
+.vite/
+coverage/
+*.log
